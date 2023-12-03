@@ -1,0 +1,160 @@
+.Baringga {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Baringga .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+
+  .Baringga .rectangle {
+    top: 528px;
+    position: absolute;
+    width: 964px;
+    height: 57px;
+    left: 238px;
+    background-color: #43e660;
+    border-radius: 15px;
+  }
+
+  .Baringga .rectangle-2 {
+    top: 744px;
+    position: absolute;
+    width: 964px;
+    height: 57px;
+    left: 238px;
+    background-color: #43e660;
+    border-radius: 15px;
+  }
+
+  .Baringga .rectangle-3 {
+    top: 672px;
+    position: absolute;
+    width: 964px;
+    height: 57px;
+    left: 238px;
+    background-color: #43e660;
+    border-radius: 15px;
+  }
+
+  .Baringga .rectangle-4 {
+    top: 600px;
+    position: absolute;
+    width: 964px;
+    height: 57px;
+    left: 238px;
+    background-color: #43e660;
+    border-radius: 15px;
+  }
+
+  .Baringga .rectangle-5 {
+    top: 456px;
+    position: absolute;
+    width: 964px;
+    height: 57px;
+    left: 238px;
+    background-color: #43e660;
+    border-radius: 15px;
+  }
+
+  .Baringga .image {
+    width: 138px;
+    height: 28px;
+    top: 895px;
+    left: 651px;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .Baringga .p0 {
+    position: absolute;
+    top: 388px;
+    left: 636px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .Baringga .img {
+    width: 322px;
+    height: 83px;
+    top: 268px;
+    left: 559px;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .Baringga .p1 {
+    position: absolute;
+    top: 455px;
+    left: 540px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .Baringga .p2 {
+    position: absolute;
+    top: 544px;
+    left: 556px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .Baringga .p3 {
+    position: absolute;
+    top: 600px;
+    left: 584px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .Baringga .p4 {
+    position: absolute;
+    top: 740px;
+    left: 420px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .Baringga .p5 {
+    position: absolute;
+    margin-top: 5px;
+    top: 683px;
+    left: 377px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }

@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleabcdef.css" />
+    <link rel="stylesheet" href={{asset('5026221133.css')}} />
   </head>
   <body>
-    <div class="desktop">
+    <div class="Baringga">
       <div class="div">
         <a class="button rectangle" href="https://live.dropshipaja.com/strategi-jualan-produk-pastilaris/" target="_blank"></a>
         <a class="button rectangle-2" href="https://summerspring.id/list-agen/" target="_blank"></a>
