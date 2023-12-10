@@ -12,15 +12,15 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">5026221015 Muhammad Alarik Daviarsyah</a>
+        <a class="navbar-brand" href="#">5026221133 Baringga Aurico De Erwada</a>
 
         <!-- Links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
+            <a class="nav-link" href="/">Portofolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
+            <a class="nav-link" href="/ikan">Ikan</a>
           </li>
 
           <!-- Dropdown -->
@@ -29,9 +29,9 @@
               Dropdown link
             </a>
             <div class="dropdown-menu">
+              <a class="dropdown-item" href="/ikan">Ikan</a>
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
             </div>
           </li>
         </ul>

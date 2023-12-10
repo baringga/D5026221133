@@ -84,3 +84,28 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/view/{id}', 'App\Http\Controllers\PegawaiController@view');
+
+//route CRUD NilaiKuliah
+Route::get('/nilai','App\Http\Controllers\NilaiController@index');
+Route::get('/nilai/tambahnilai','App\Http\Controllers\NilaiController@tambahNilai');
+Route::post('/nilai/store','App\Http\Controllers\NilaiController@store');
+
+
+// Route CRUD untuk Latihan tanggal 04/12/2023
+Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiKuliahController@index');
+
+// add
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiKuliahController@tambah');
+
+Route::post('/nilaikuliah/store', 'App\Http\Controllers\NilaiKuliahController@store');
+
+
+//ikan
+Route::get('/ikan','App\Http\Controllers\IkanController@index');
+Route::get('/ikan/tambah','App\Http\Controllers\IkanController@tambah');
+Route::post('/ikan/store','App\Http\Controllers\IkanController@store');
+Route::get('/ikan/edit/{id}','App\Http\Controllers\IkanController@edit');
+Route::post('/ikan/update','App\Http\Controllers\IkanController@update');
+Route::get('/ikan/hapus/{id}','App\Http\Controllers\IkanController@hapus');
+Route::get('/ikan/cari','App\Http\Controllers\IkanController@cari');
+Route::get('/ikan/view/{id}', 'App\Http\Controllers\IkanController@view');
