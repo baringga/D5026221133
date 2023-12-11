@@ -11,5 +11,4 @@
           </select>
 		<input type="submit" value="Kirim" class="btn btn-primary">
 	</form>
-
 @endsection
