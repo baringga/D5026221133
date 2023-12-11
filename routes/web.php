@@ -109,3 +109,9 @@ Route::post('/ikan/update','App\Http\Controllers\IkanController@update');
 Route::get('/ikan/hapus/{id}','App\Http\Controllers\IkanController@hapus');
 Route::get('/ikan/cari','App\Http\Controllers\IkanController@cari');
 Route::get('/ikan/view/{id}', 'App\Http\Controllers\IkanController@view');
+
+//belanja
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
