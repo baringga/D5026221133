@@ -11,14 +11,27 @@
  @section('konten')
      <br>
      <select name=" optionlist " onChange="combo(this, 'demo')">
-        <option>Nama</option>
-        <option>option 2</option>
-        <option>option 3</option>
-        <option> option 4 </option>
-        <option> option 5 </option>
+        <option> @foreach ($kategori as $i)
+            <tr>
+                <td>{{ $i ->Nama}}</td>
+
+            </tr>
+        @endforeach</option>
+        <option> @foreach ($kategori as $i)
+            <tr>
+                <td>{{ $i ->Nama}}</td>
+
+            </tr>
+        @endforeach</option>
+        <option> @foreach ($kategori as $i)
+            <tr>
+                <td>{{ $i ->Nama}}</td>
+
+            </tr>
+        @endforeach</option>
         </select>
 
-   
+
      <table class="table table-striped table-hover">
          <tr>
             <th>ID</th>
