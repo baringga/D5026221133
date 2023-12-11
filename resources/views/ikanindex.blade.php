@@ -9,6 +9,7 @@
  @endsection
 
  @section('konten')
+
      <br>
      <a href="/ikan/tambah" class="btn btn-primary"> + Tambah Ikan Baru</a>
      <table class="table table-striped table-hover">
