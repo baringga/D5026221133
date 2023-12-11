@@ -10,23 +10,25 @@ class KategoriController extends Controller
 {
 	public function index()
 	{
-
-        $kategori = DB::table('kategori')->paginate(15);
-
-    	// mengirim data kategori ke view index
+    	// mengambil data dari table belanja
+        $kategori = DB::table('kategori')->get();
+    	// mengirim data belanja ke view index
 		return view('kategoriindex',['kategori' => $kategori]);
 
 	}
 
+    public function view(Request $request)
+	{
+		// menangkap data pencarian
+		$input = $request->view;
 
-      // view data kategori
-      public function view($id)
-      {
-      //mengambil data kategori dari database kategori
-        $kategori = DB::table('kategori')->where('ID', $id)->get();
+    		// mengambil data dari table pegawai sesuai pencarian data
+		$kategori = DB::table('kategori')
+		->where('ID','like',"%".$input."%")
+		->get();
 
-        //mengalihkan tampilan ke view dari kategori
-        return view('kategoriview', ['kategori' => $kategori]);
-      }
+    		// mengirim data pegawai ke view index
+		return view('kategoriview',['kategori' => $kategori]);
 
+	}
 }

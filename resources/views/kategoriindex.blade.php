@@ -1,51 +1,15 @@
 @extends('kategorimaster')
- @section('title', 'Database kategori')
+@section('judulhalaman', 'Kategori')
 
- @section('judul_halaman')
-     <h2>Data Kategori</h2>
+@section('konten')
+    <h4>Pilih Kategori</h4>
+    <form action="/hasilcombo" method="GET">
+		<select class="custom-select" name="view">
+            @foreach($kategori as $k)
+            <option value={{ $k->ID }}>{{ $k->Nama }}</option>
+            @endforeach
+          </select>
+		<input type="submit" value="Kirim" class="btn btn-primary">
+	</form>
 
-
-     <br>
- @endsection
-
- @section('konten')
-     <br>
-     <p>Pilih Kategori</p>
-     <select name=" optionlist " onChange="combo(this, 'demo')">
-        <option> @foreach ($kategori as $i)
-            <tr>
-                <td>{{ $i ->Nama}}</td>
-
-            </tr>
-        @endforeach</option>
-        <option> @foreach ($kategori as $i)
-            <tr>
-                <td>{{ $i ->Nama}}</td>
-
-            </tr>
-        @endforeach</option>
-        <option> @foreach ($kategori as $i)
-            <tr>
-                <td>{{ $i ->Nama}}</td>
-
-            </tr>
-        @endforeach</option>
-        </select>
-
-
-     <table class="table table-striped table-hover">
-         <tr>
-            <th>ID</th>
-             <th>Nama Kategori</th>
-
-
-         </tr>
-         @foreach ($kategori as $i)
-             <tr>
-                 <td>{{ $i ->ID}}</td>
-                 <td>{{ $i ->Nama}}</td>
-
-             </tr>
-         @endforeach
-     </table>
- @endsection
+@endsection
