@@ -10,6 +10,7 @@
 
  @section('konten')
      <br>
+     <p>Pilih Kategori</p>
      <select name=" optionlist " onChange="combo(this, 'demo')">
         <option> @foreach ($kategori as $i)
             <tr>
